@@ -12,9 +12,9 @@ package kohlspos;
 public class DiscountPercent implements DiscountStrategy{
     
     
-    double PercentDiscount;
-    double discountedPrice;
-    double itemCost;
+    private double PercentDiscount;
+    private double discountedPrice;
+    private double itemCost;
     
     @Override
     public double getDiscount(double itemCost) {

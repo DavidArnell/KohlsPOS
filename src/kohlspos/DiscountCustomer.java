@@ -2,10 +2,23 @@ package kohlspos;
 
 public class DiscountCustomer implements DiscountStrategy {
 
+    
+    private double customerDiscount;
+    
     @Override
     public double getDiscount(double itemCost) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        
+    }    
+    
+    public double getCustomerDiscount() {
+        return customerDiscount;
     }
+
+    public void setCustomerDiscount(double customerDiscount) {
+        this.customerDiscount = customerDiscount;
+    }
+    
+
 
 
 }

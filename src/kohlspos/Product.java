@@ -2,7 +2,9 @@ package kohlspos;
 
 public abstract class Product {
     private double price;
-    private String itemNo;
+    private double itemNo;
+    private String description;
+    private 
     
     
     Discount discount;
