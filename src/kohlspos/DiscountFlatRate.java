@@ -9,7 +9,7 @@ package kohlspos;
  *
  * @author darnell
  */
-public class FlatRate implements DiscountStrategy{
+public class DiscountFlatRate implements DiscountStrategy{
 
     double flatRateDiscount;
     double discountedPrice;
