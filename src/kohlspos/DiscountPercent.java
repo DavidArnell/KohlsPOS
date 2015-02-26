@@ -11,11 +11,12 @@ package kohlspos;
  */
 public class DiscountPercent implements DiscountStrategy{
     
-    
+    // variables used by the methods within this class
     private double PercentDiscount;
     private double discountedPrice;
     private double itemCost;
     
+    // Get the rest of the needed variables in the method
     @Override
     public double getDiscount(double itemCost) {
         this.itemCost = itemCost;

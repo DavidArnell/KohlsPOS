@@ -4,9 +4,8 @@ public abstract class Product {
     private double price;
     private double itemNo;
     private String description;
-    private 
+    private Discount discount;
     
     
-    Discount discount;
-    
+        
 }
